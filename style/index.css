@@ -20,6 +20,10 @@ time, mark, audio, video {
     font-family: 'Caveat', cursive;
 }
 
+p {
+    font-size: x-large;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -32,7 +36,7 @@ header {
     padding: 30px 10px;
 }
 h1 {
-    color: rgb(244, 238, 245);
+    color: white;
     font-size: 3rem;
 }
 
@@ -41,7 +45,7 @@ button {
     padding: 1rem;
     font-size: 1.5rem;
     font-family: 'Caveat', cursive;
-    color: rgb(124, 126, 126);
+    color: white;
     /* margin-left: -0.15rem; */
     /* margin-right: -0.15rem; */
     border-radius: 1rem;
@@ -73,11 +77,12 @@ img {
 }
 #featured > div {
     padding-left: 20px;
-    margin: 0 auto;
+    margin: 0 auto 3rem;
     width: 35%;
 }
 h3 {
     font-size: 3rem;
+    color: white;
 }
 #cards {
     flex-wrap: wrap;
@@ -112,5 +117,6 @@ h4 {
 footer > div {
     display: flex;
     flex-direction:column;
-    /* justify-content: center; */
+    justify-content: center;
+    margin: 20px 0;
 }
