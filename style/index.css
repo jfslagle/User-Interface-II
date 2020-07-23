@@ -40,6 +40,13 @@ h1 {
     font-size: 3rem;
 }
 
+@media  only screen and (max-width: 393px) {
+    header {font-size: 50%;
+    text-align: center;
+}
+    
+}
+
 button {
     background-color: black;
     padding: 1rem;
@@ -80,6 +87,7 @@ img {
     margin: 0 auto 3rem;
     width: 35%;
 }
+
 h3 {
     font-size: 3rem;
     color: white;
@@ -98,11 +106,18 @@ h3 {
 #cards > div > img {
     width: 100%;
     height: auto;
+    /* content: url("https://picsum.photos"); */
     content: url("https://picsum.photos/400/400/?blur=2");
 }
 #featured > img {
     width: 40%;
     height: 450px;
+}
+@media only screen and (max-width: 395px) {
+    #featured img {
+        width: 50%;
+        height: auto;
+    }
 }
 footer {
     display: flex;
@@ -120,3 +135,17 @@ footer > div {
     justify-content: center;
     margin: 20px 0;
 }
+
+@media only screen and (max-width: 395px) {
+    .buttons a{
+      /* display: flex;   */
+      flex-shrink: 3;
+      /* width: auto; */
+
+    display: block;
+    width: auto;
+    float: none;
+    font-size: 50%;
+    text-align: center;
+    }
+  }
